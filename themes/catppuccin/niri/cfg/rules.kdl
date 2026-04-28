@@ -1,0 +1,38 @@
+window-rule {
+geometry-corner-radius 3 // Set every window radius to 20
+clip-to-geometry true
+}
+
+    layer-rule {
+        // match namespace="^noctalia-wallpaper*"
+        place-within-backdrop true
+    }
+    
+window-rule {
+    background-effect {
+        blur true
+    }
+}
+
+// Blur a specific app (e.g. kitty terminal)
+window-rule {
+    match app-id="^kitty$"
+    background-effect {
+        blur true
+    }
+}
+
+// All Windows Transparency
+window-rule {
+    opacity 0.9
+}
+
+// Transparency Specific app
+window-rule {
+    match app-id="^kitty$"
+    opacity 0.75
+}
+
+window-rule {
+    draw-border-with-background false
+}
