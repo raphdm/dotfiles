@@ -120,7 +120,7 @@
                     "colorizeIcons": false,
                     "emptyColor": "secondary",
                     "enableScrollWheel": true,
-                    "focusedColor": "primary",
+                    "focusedColor": "none",
                     "followFocusedScreen": false,
                     "fontWeight": "bold",
                     "groupedBorderOpacity": 1,
@@ -279,7 +279,7 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "tonal-spot",
+        "generationMethod": "rainbow",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
@@ -400,7 +400,7 @@
         "animationDisabled": true,
         "animationSpeed": 1,
         "autoStartAuth": false,
-        "avatarImage": "/home/raphy/.face",
+        "avatarImage": "/mnt/Artemis/VisualMedia/steamdb/Untitled.png",
         "boxRadiusRatio": 1,
         "clockFormat": "hh\\nmm",
         "clockStyle": "custom",
@@ -673,14 +673,6 @@
             },
             {
                 "enabled": true,
-                "id": "ghostty"
-            },
-            {
-                "enabled": true,
-                "id": "starship"
-            },
-            {
-                "enabled": true,
                 "id": "steam"
             },
             {
@@ -697,15 +689,23 @@
             },
             {
                 "enabled": true,
-                "id": "kcolorscheme"
-            },
-            {
-                "enabled": true,
                 "id": "cava"
             },
             {
                 "enabled": true,
                 "id": "discord"
+            },
+            {
+                "enabled": true,
+                "id": "ghostty"
+            },
+            {
+                "enabled": true,
+                "id": "starship"
+            },
+            {
+                "enabled": true,
+                "id": "kcolorscheme"
             }
         ],
         "enableUserTheming": false
@@ -760,7 +760,7 @@
         "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "single",
+        "viewMode": "recursive",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
