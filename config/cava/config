@@ -211,6 +211,7 @@ show_idle_bar_heads = 1
 ; waveform = 0
 
 [color]
+theme = "noctalia"
 
 # Catppuccin Mocha — green gradient theme
 # Base: #1e1e2e | Surface: #313244 | Green: #a6e3a1 | Teal: #94e2d5 | Sky: #89dceb | Sapphire: #74c7ec

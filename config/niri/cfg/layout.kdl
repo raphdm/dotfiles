@@ -48,10 +48,16 @@ layout {
 
     // You can change how the focus ring looks.
     focus-ring {
-        width 2
-        active-color   "#8caaee"
-        inactive-color "#1e1e2e"
-        urgent-color   "#f38ba8"
+        width 1
+        /*Catppuccin*/
+        //active-color   "#8caaee"
+        //inactive-color "#1e1e2e"
+        //urgent-color   "#f38ba8"
+
+        /*Monochrome*/
+        active-color   "#b8baba"
+        inactive-color "#1e1e1e"
+        urgent-color   "#b89298"
     }
 
     // You can also add a border. It's similar to the focus ring, but always visible.
@@ -94,7 +100,7 @@ layout {
         // window. These will also remove client-side shadows if the window
         // draws any.
         //
-        // draw-behind-window true
+        //draw-behind-window true
 
         // You can change how shadows look. The values below are in logical
         // pixels and match the CSS box-shadow properties.
@@ -103,10 +109,10 @@ layout {
         softness 30
 
         // Spread expands the shadow.
-        spread 5
+        spread 10
 
         // Offset moves the shadow relative to the window.
-        offset x=0 y=5
+        offset x=0 y=0
 
         // You can also change the shadow color and opacity.
         color "#0007"

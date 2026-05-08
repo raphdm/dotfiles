@@ -9,15 +9,15 @@
       "top": 1,
       "left": 2,
       "right": 1,
-      "bottom": 0
-    }
+      "bottom": 0,
+    },
   },
   "display": {
     "stat": false,
     "size": {
-      "binaryPrefix": "jedec"
+      "binaryPrefix": "jedec",
     },
-    "separator": " "
+    "separator": " ",
   },
   "modules": [
     "break",
@@ -25,51 +25,51 @@
     {
       "type": "title",
       "key": " ",
-      "format": " {#38;5;4}  {#38;5;153}{1}{#38;5;4}@{#38;5;153}{2}"
+      "format": " {#38;5;4}  {#38;5;153}{1}{#38;5;4}@{#38;5;153}{2}",
     },
     {
       "key": "{#38;5;153} {#38;5;4}󰻀 {#keys}{#38;5;153}",
       "type": "os",
-      "format": "Fedora Linux 44 (Workstation)"
+      "format": "Fedora Linux 44",
     },
     {
       "key": "{#38;5;153} {#38;5;1}{icon} ",
-      "type": "kernel"
+      "type": "kernel",
     },
     {
       "key": "{#38;5;153} {#38;5;2} {#keys}{#38;5;153}",
       "type": "shell",
-      "format": "zsh"
+      "format": "zsh",
     },
     {
       "key": "{#38;5;153} {#38;5;4} {#keys}{#38;5;153}",
       "type": "wm",
-      "format": "Niri"
+      "format": "Niri",
     },
     {
       "key": "{#38;5;153} {#38;5;4}󰏖 {#keys}{#38;5;153}",
       "type": "packages",
-      "format": "{rpm} (rpm), {flatpak-system} (flatpak)"
+      "format": "{rpm} (rpm), {flatpak-system} (flatpak)",
     },
     {
       "key": "{#38;5;153} {#38;5;5} {#keys}{#38;5;153}",
       "type": "cpu",
-      "format": "Ryzen 3 2200U"
+      "format": "Ryzen 3 2200U",
     },
     {
       "key": "{#38;5;153} {#38;5;13} {#keys}{#38;5;153}",
       "type": "memory",
-      "format": "{1} | {2}"
+      "format": "{1} | {2}",
     },
     {
       "key": "{#38;5;153} {#38;5;3}󰉉 {#keys}{#38;5;153}",
       "type": "disk",
-      "format": "{1} | {2}"
+      "format": "{1} | {2}",
     },
     {
       "key": "{#38;5;153} {#38;5;6} {#keys}{#38;5;153}",
       "type": "command",
-      "text": "echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days"
-    }
-  ]
+      "text": "echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 )) days",
+    },
+  ],
 }

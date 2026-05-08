@@ -1,13 +1,13 @@
 /* Transparency */
 window-rule {
-  opacity 0.9
+  opacity 0.95
 }
 
 /* Apps: blur them all without xray so it looks more realistic. */
 window-rule {
   background-effect {
-    blur true
-    xray true
+    //blur true
+    //xray true
   }
 }
 
@@ -27,5 +27,5 @@ layer-rule {
 /* Specific app*/
 window-rule {
   match app-id="ghostty"
-  opacity 0.75
+  opacity 0.9
 }
